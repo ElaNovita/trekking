@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="libs/materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	
+	<!-- navbar -->
+	<nav class="transparent">
+	  <div class="nav-wrapper">
+	    <div class="container">
+	    	<a href="#!" class="brand-logo greens-text">Logo</a>
+	    	<a href="#" data-activates="mobile-demo" class="button-collapse">
+	    	  <i class="material-icons" style="color: #4db6ac">menu</i>
+	    	</a>
+	    	<ul class="right hide-on-med-and-down">
+	    	  <li class="active"><a href="index.html">Home</a></li>
+	    	  <li><a href="tambora.html">Tambora</a></li>
+	    	  <li><a href="porter.html">Porter</a></li>
+	    	  <li><a href="climb-date.html">Climb Dates</a></li>
+	    	  <li><a href="package.html">Book</a></li>
+	    	  <li><a href="tips.html">Tips</a></li>
+	    	  <li><a href="map.html">Maps</a></li>
+	    	  <li><a href="gallery.html">Gallery</a></li>
+	    	  <li><a href="faq.html">FAQ</a></li>
+	    	  <li><a href="contact.html">Contact</a></li>
+	    	</ul>
+	    	<ul class="side-nav" id="mobile-demo">
+	    	  <li><a href="index.html">Home</a></li>
+	    	  <li><a href="tambora.html">Tambora</a></li>
+	    	  <li><a href="porter.html">Porter</a></li>
+	    	  <li><a href="climb-date.html">Climb Dates</a></li>
+	    	  <li><a href="package.html">Packages</a></li>
+	    	  <li><a href="tips.html">Tips</a></li>
+	    	  <li><a href="map.html">Maps</a></li>
+	    	  <li><a href="gallery.html">Gallery</a></li>
+	    	  <li><a href="faq.html">FAQ</a></li>
+	    	  <li><a href="contact.html">Contact</a></li>
+	    	</ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="wrapper"></div>
+	<!-- slider -->
+	<div class="slider" >
+	    <ul class="slides">
+	      <li>
+	        <img src="img/4.jpeg"> <!-- random image -->
+	        <div class="caption center-align">
+	          <h3>This is our big Tagline!</h3>
+	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="img/2.jpg"> <!-- random image -->
+	        <div class="caption left-align">
+	          <h3>Left Aligned Caption</h3>
+	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="img/3.jpg"> <!-- random image -->
+	        <div class="caption right-align">
+	          <h3>Right Aligned Caption</h3>
+	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+	        </div>
+	      </li>
+	      <li>
+	        <img src="img/5.jpeg"> <!-- random image -->
+	        <div class="caption center-align">
+	          <h3>This is our big Tagline!</h3>
+	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/materialize/js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+		    $('.slider').slider({height: 500, transition: 300});
+		});
+	</script>
+</body>
+</html>

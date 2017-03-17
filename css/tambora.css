@@ -1,0 +1,13 @@
+.content {
+	margin-top: 50px;
+}
+
+.title {
+	text-align: center;
+	color: #4db6ac;
+}
+
+.intro p {
+	margin-top: 0;
+    line-height: 2;
+}

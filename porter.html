@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="libs/materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="transparent">
+	  <div class="nav-wrapper">
+	    <div class="container">
+	    	<a href="#!" class="brand-logo greens-text">Logo</a>
+	    	<a href="#" data-activates="mobile-demo" class="button-collapse">
+	    	  <i class="material-icons" style="color: #4db6ac">menu</i>
+	    	</a>
+	    	<ul class="right hide-on-med-and-down">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="tambora.html">Tambora</a></li>
+           <li class="active"><a href="porter.html">Porter</a></li>
+           <li><a href="climb-date.html">Climb Dates</a></li>
+           <li><a href="package.html">Packages</a></li>
+           <li><a href="tips.html">Tips</a></li>
+           <li><a href="map.html">Maps</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="faq.html">FAQ</a></li>
+           <li><a href="book.html">Book</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+         <ul class="side-nav" id="mobile-demo">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="tambora.html">Tambora</a></li>
+           <li><a href="porter.html">Porter</a></li>
+           <li><a href="climb-date.html">Climb Dates</a></li>
+           <li><a href="package.html">Packages</a></li>
+           <li><a href="tips.html">Tips</a></li>
+           <li><a href="map.html">Maps</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="faq.html">FAQ</a></li>
+           <li><a href="book.html">Book</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="row content">
+   		<div class="container ">
+   			<div class="col s4">
+   			  <div class="card">
+   			    <div class="card-image">
+   			      <img src="img/user1.jpg">
+   			      <span class="card-title name-wrapper">John</span>
+   			      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">bookmark_border</i></a>
+   			    </div>
+   			    <div class="card-content">
+   			      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+   			    </div>
+   			  </div>
+   			</div>
+
+   			<div class="col s4">
+   			  <div class="card">
+   			    <div class="card-image">
+   			      <img src="img/user2.jpg">
+   			      <span class="card-title name-wrapper">Jane</span>
+   			      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">bookmark_border</i></a>
+   			    </div>
+   			    <div class="card-content">
+   			      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+   			    </div>
+   			  </div>
+   			</div>
+
+   			<div class="col s4">
+   			  <div class="card">
+   			    <div class="card-image">
+   			      <img src="img/user3.jpeg">
+   			      <span class="card-title name-wrapper">Mark</span>
+   			      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">bookmark_border</i></a>
+   			    </div>
+   			    <div class="card-content">
+   			      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+   			    </div>
+   			  </div>
+   			</div>
+
+   			<div class="col s4">
+   			  <div class="card">
+   			    <div class="card-image">
+   			      <img src="img/user4.jpeg">
+   			      <span class="card-title name-wrapper">Catherine</span>
+   			      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">bookmark_border</i></a>
+   			    </div>
+   			    <div class="card-content">
+   			      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+   			    </div>
+   			  </div>
+   			</div>
+   		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+        $('.slider').slider({height: 500, transition: 300});
+    });
+  </script>
+</body>
+</html>

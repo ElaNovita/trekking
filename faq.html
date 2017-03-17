@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="libs/materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	
+	<!-- navbar -->
+	<nav class="transparent">
+	  <div class="nav-wrapper">
+	    <div class="container">
+	    	<a href="#!" class="brand-logo greens-text">Logo</a>
+	    	<a href="#" data-activates="mobile-demo" class="button-collapse">
+	    	  <i class="material-icons" style="color: #4db6ac">menu</i>
+	    	</a>
+	    	<ul class="right hide-on-med-and-down">
+	    	  <li><a href="index.html">Home</a></li>
+	    	  <li><a href="tambora.html">Tambora</a></li>
+	    	  <li><a href="porter.html">Porter</a></li>
+	    	  <li><a href="climb-date.html">Climb Dates</a></li>
+	    	  <li><a href="package.html">Packages</a></li>
+	    	  <li><a href="tips.html">Tips</a></li>
+	    	  <li><a href="map.html">Maps</a></li>
+	    	  <li><a href="gallery.html">Gallery</a></li>
+	    	  <li class="active"><a href="faq.html">FAQ</a></li>
+	    	  <li><a href="book.html">Book</a></li>
+	    	  <li><a href="contact.html">Contact</a></li>
+	    	</ul>
+	    	<ul class="side-nav" id="mobile-demo">
+	    	  <li><a href="index.html">Home</a></li>
+	    	  <li><a href="tambora.html">Tambora</a></li>
+	    	  <li><a href="porter.html">Porter</a></li>
+	    	  <li><a href="climb-date.html">Climb Dates</a></li>
+	    	  <li><a href="package.html">Packages</a></li>
+	    	  <li><a href="tips.html">Tips</a></li>
+	    	  <li><a href="map.html">Maps</a></li>
+	    	  <li><a href="gallery.html">Gallery</a></li>
+	    	  <li><a href="faq.html">FAQ</a></li>
+	    	  <li><a href="book.html">Book</a></li>
+	    	  <li><a href="contact.html">Contact</a></li>
+	    	</ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="content">
+		<div class="title">
+			<h4>FREQUENTLY ASKED QUESTIONS (FAQ)</h4>
+		</div>
+		<div class="container">
+			<div class="faq">
+				<p class="faq-title">Question about mount tambora</p>
+				<ol class="collapsible" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header">When will the Mount Tambora trail be fully opened?</div>
+				      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header">Will there still be tremors when I am climbing the mountain?</div>
+				      <div class="collapsible-body"><span>Weak tremors may still be felt few times a years, as geologist said that it can take up to years for the tectonic plates to stabilize after an earthquake.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"> Is the route to the summit still the same?</div>
+				      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				    </li>
+				  </ol>
+			</div>
+			<div class="faq">
+				<p class="faq-title">Question about planning trip</p>
+				<ol class="collapsible" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header">How long does it take to climb Mount Tambora?</div>
+				      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header">How many days should I spend on my Mount tambora trip?</div>
+				      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"> Should I purchase a personal travel insurance plan?</div>
+				      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+				    </li>
+				  </ol>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/materialize/js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+		    $('.slider').slider({height: 500, transition: 300});
+		});
+	</script>
+</body>
+</html>
