@@ -111,6 +111,14 @@ nav ul a {
 	padding: 6px !important;
 }
 
+.package-wrapper a {
+	color: #fff !important;
+}
+
+.package-wrapper:hover {
+	background-color: rgb(77,182,172) !important;
+}
+
 .tips ul {
 	list-style: square !important;
 	list-style-type: square !important;
@@ -161,4 +169,20 @@ nav ul a {
 .form-title {
 	color: #4db6ac !important;
 	margin-bottom: 15px !important;
+}
+
+.slider h3 {
+	font-weight: 400 !important;
+}
+
+.my-card-image {
+	height: 250px !important;
+}
+
+.package-text-title {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.package-text {
 }
