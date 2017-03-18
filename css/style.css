@@ -207,3 +207,12 @@ nav ul a {
 .card .card-action a.hover {
 	color: #26a69a  !important;
 }
+
+.my-container {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.equipment img {
+	height: 200px !important;
+}
