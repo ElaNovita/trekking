@@ -64,7 +64,7 @@
 				    </div>
 				  </div>
 			</div>
-			<div class="col s8">
+			<div class="col s8 book-form">
 				<div class="row">
 					<div class="col s12">
 						<div class="card ">
@@ -74,11 +74,11 @@
 								      <div class="row">
 								      	<p class="form-title">Preferred Date </p>
 								        <div class="input-field col s6">
-								          <input id="last_name" type="text" class="validate">
+								          <input id="last_name" type="date" class="datepicker">
 								          <label for="last_name">Start Date</label>
 								        </div>
 								        <div class="input-field col s6">
-								          <input id="last_name" type="text" class="validate">
+								          <input id="last_name" type="date" class="datepicker">
 								          <label for="last_name">End Date</label>
 								        </div>
 								      </div>
@@ -154,7 +154,12 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".button-collapse").sideNav();
-		    $('.slider').slider({height: 500, transition: 300});
+		    $(".datepicker").pickadate({
+		        onSet: function () {
+		          $('.picker__close').click();
+		        },
+		        format: "dd/mm/yyyy"
+		      });
 		});
 	</script>
 </body>

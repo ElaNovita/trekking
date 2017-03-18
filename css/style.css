@@ -184,5 +184,26 @@ nav ul a {
 	font-weight: 300;
 }
 
-.package-text {
+.book-form input {
+	color: #424242 !important;
+}
+
+.testimony {
+	background-color: #4db6ac;
+	height: 200px;
+	width: 100%;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color: #4db6ac !important;
+}
+
+.card .card-action a {
+	color: #4db6ac !important;
+}
+
+
+
+.card .card-action a.hover {
+	color: #26a69a  !important;
 }
