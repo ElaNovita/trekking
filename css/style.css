@@ -90,6 +90,11 @@ nav ul a {
 	padding: 6px !important;
 }
 
+.name-wrapper a {
+	color: #fff !important;
+}
+
+
 .title {
 	text-align: center;
 	color: #4db6ac;
@@ -215,4 +220,19 @@ nav ul a {
 
 .equipment img {
 	height: 200px !important;
+}
+
+.porter img {
+	height: 200px !important;
+	object-fit: cover;
+}
+
+.id-title {
+	color: #757575;
+	display: inline;
+}
+
+.id-content {
+	display: inline;
+	/*margin-left: 40px;*/
 }
